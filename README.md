@@ -12,3 +12,6 @@ fly launch \
 
 You will be asked an app name and organization. A 1GB volume will be created on deploy.
 
+## Feedback?
+
+https://community.fly.io/t/hosting-uptime-kuma-on-fly-io/14352
