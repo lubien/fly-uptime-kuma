@@ -1,16 +1,12 @@
 # fly-uptime-kuma
 
-To host uptime kuma on Fly.io clone this repo, enter the folder and run:
+To host uptime kuma on Fly.io:
 
 ```
-fly launch \
-  --copy-config \
-  --auto-confirm \
-  --ha=false \
-  --now
+fly launch --from https://github.com/lubien/fly-uptime-kuma.git
 ```
 
-You will be asked an app name and organization. A 1GB volume will be created on deploy.
+When prompted, edit the app name. A 1GB volume will be created on deploy.
 
 ## Feedback?
 
